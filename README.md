@@ -60,7 +60,6 @@ Este repositorio centraliza proyectos que destacan mi experiencia en desarrollo 
 
 ## 📬 Contacto
 
-- **GitHub**: [https://github.com/JosarDev](https://github.com/JosarDev)
 - **LinkedIn**: [https://www.linkedin.com/in/josardev/](https://www.linkedin.com/in/josardev/)
 
 *Desarrollado con 💻 y pasión por la tecnología.*
