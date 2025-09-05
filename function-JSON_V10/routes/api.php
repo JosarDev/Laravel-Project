@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\GoogleSearchController;
+use App\Http\Controllers\BingSearchController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('/search', [GoogleSearchController::class, 'search']);
+Route::get('/bing-search', [BingSearchController::class, 'search']);
