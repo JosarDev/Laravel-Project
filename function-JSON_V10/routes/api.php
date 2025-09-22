@@ -22,3 +22,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::get('/search', [GoogleSearchController::class, 'search']);
 Route::get('/bing-search', [BingSearchController::class, 'search']);
+Route::get('/buscar', [BingSearchController::class, 'search']);
